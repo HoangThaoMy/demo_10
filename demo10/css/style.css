@@ -1,0 +1,85 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead {border: 0;font-family: inherit;font-size: 100%;font-style: inherit;font-weight: inherit;margin: 0;outline: 0;padding: 0;}
+:focus {outline: 0;}
+a {
+	text-decoration: none;
+	border: none !important\9;
+	*border: none !important;
+}
+a:hover {
+	opacity: 0.8;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+}
+a img {
+	border: none;
+}
+ul li {
+	list-style: none;
+}
+body {
+	text-align: center;
+	font-family: "Kozuka Gothic Pr6N";
+	font-size: 14px;
+	color: #646363;
+}
+.show_sp {
+	display: none;
+}
+.no_border {
+	border: none !important;
+}
+ .clearFix::after{
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
+.inner {
+	width: 100%;
+	max-width: 946px;
+	min-width: 946px;
+	clear: both;
+	position: relative;
+	display: inline-block;
+	margin: auto;
+}
+.header {
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	position: relative;
+	display: inline-block;
+	background: url(../images/bg_header.png) repeat-x left top;
+	height: auto;
+}
+.header_logo {
+	width: 100%;
+	max-width: 377px;
+	*width: 372px;
+	margin-top: 40px;
+	float: left;
+	margin-bottom: 26px;
+}
+div.header_info {
+	margin-top: 30px;
+	float: right;
+}
+div.header_info p {
+	text-align: right;
+	font-size: 12px;
+}
+.header_mail {
+	width: 100%;
+	max-width: 50px;
+	height: 47px;
+	float: right;
+	margin-top: 18px;
+}
+.header_phone {
+	float: right;
+	margin-right: 13px;
+	width: 100%;
+	max-width: 235px;
+}
